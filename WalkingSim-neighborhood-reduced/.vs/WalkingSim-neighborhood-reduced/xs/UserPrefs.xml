@@ -1,7 +1,12 @@
 ﻿<Properties StartupConfiguration="{0A425141-9081-74CC-1BC0-621A12845CC4}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Locknload.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Resources/FirstPersonDrifter-master 10-55-19-579/FirstPersonDrifter/Runtime/Scripts/FirstPersonDrifter.cs">
     <Files>
-      <File FileName="Assets/Scripts/Locknload.cs" Line="12" Column="44" />
+      <File FileName="Assets/Scripts/Locknload.cs" Line="27" Column="71" />
+      <File FileName="Assets/Scripts/Warp.cs" Line="43" Column="1" />
+      <File FileName="Assets/Scripts/FirstPersonDrifterYanxi.cs" Line="205" Column="1" />
+      <File FileName="Assets/Resources/FirstPersonDrifter-master 10-55-19-579/FirstPersonDrifter/Runtime/Scripts/OptionsMenu.cs" Line="57" Column="2" />
+      <File FileName="Assets/Resources/FirstPersonDrifter-master 10-55-19-579/FirstPersonDrifter/Runtime/Scripts/MouseLook.cs" Line="86" Column="2" />
+      <File FileName="Assets/Resources/FirstPersonDrifter-master 10-55-19-579/FirstPersonDrifter/Runtime/Scripts/FirstPersonDrifter.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

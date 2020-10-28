@@ -27,7 +27,7 @@ public class Warp : MonoBehaviour
             }
             else if (gameObject.name == "SadHouseEnter")
             {
-                SceneManager.LoadScene("SadHouse");
+                SceneManager.LoadScene("WalkSimSadHouse");
                 locknload.beenSad = true;
             }
             else if (gameObject.name == "HappyHouseExit")
