@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{0A425141-9081-74CC-1BC0-621A12845CC4}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Locknload.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Locknload.cs" Line="12" Column="44" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WalkingSim-neighborhood-reduced" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="15c65901-f177-40c4-8c95-0a9079bf880d" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

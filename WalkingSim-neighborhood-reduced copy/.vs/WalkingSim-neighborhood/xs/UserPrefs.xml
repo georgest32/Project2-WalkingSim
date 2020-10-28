@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{44BD5B6F-7BA4-7431-E3C0-83FCE5610437}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Warp.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Locknload.cs" Line="9" Column="1" />
+      <File FileName="Assets/Scripts/Warp.cs" Line="19" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WalkingSim-neighborhood" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Warp.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="4a5a4039-1fe6-4193-b6e0-2717d7d76efc" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
