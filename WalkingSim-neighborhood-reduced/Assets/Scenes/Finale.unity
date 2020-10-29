@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 334a1fde9387b49c1b02a6ae1d01f42f, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -6641,6 +6641,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 445560166}
+  - component: {fileID: 445560167}
   m_Layer: 0
   m_Name: alt2 15 (2)
   m_TagString: Untagged
@@ -6656,7 +6657,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 445560165}
   m_LocalRotation: {x: 0.00000008311857, y: 0.71672595, z: -0.0000000014508085, w: 0.697355}
-  m_LocalPosition: {x: -26.5, y: 0, z: 1.7}
+  m_LocalPosition: {x: -26.5, y: 0, z: 2.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1583076987}
@@ -6666,6 +6667,19 @@ Transform:
   m_Father: {fileID: 1828836476}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 91.57001, z: 0}
+--- !u!65 &445560167
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 445560165}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 22.98, y: 11.16, z: 16}
+  m_Center: {x: -0.5, y: 0, z: 0}
 --- !u!1 &512338841
 GameObject:
   m_ObjectHideFlags: 0
@@ -6945,7 +6959,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '<b>Headspaces</b>
+  m_text: '<b>Disaster Walk</b>
 
 
     by Laura Reyes, Yanxi Wang, and George Still'
@@ -8080,6 +8094,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 762997328}
+  - component: {fileID: 762997329}
   m_Layer: 0
   m_Name: alt2 15 (1)
   m_TagString: Untagged
@@ -8105,6 +8120,19 @@ Transform:
   m_Father: {fileID: 1828836476}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &762997329
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762997327}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 22.78, y: 11.65, z: 15.68}
+  m_Center: {x: -0.5, y: 0, z: 0}
 --- !u!1 &769712689
 GameObject:
   m_ObjectHideFlags: 0
@@ -9028,7 +9056,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1078637037}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 372.2, y: -7.9801407, z: 179.8}
+  m_LocalPosition: {x: 370.65, y: -7.9801407, z: 175.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 667581144}
@@ -9058,7 +9086,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 19.6, y: 1, z: 3.84}
+  m_Size: {x: 2.24, y: 1, z: 2.32}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1079394403
 PrefabInstance:
@@ -9266,7 +9294,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.89411765}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -11549,6 +11577,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1775479137}
+  - component: {fileID: 1775479138}
   m_Layer: 0
   m_Name: alt2 15
   m_TagString: Untagged
@@ -11574,6 +11603,19 @@ Transform:
   m_Father: {fileID: 1828836476}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!65 &1775479138
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1775479136}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 22.78, y: 10.5, z: 16}
+  m_Center: {x: -0.5, y: 0, z: 0}
 --- !u!1 &1828836475
 GameObject:
   m_ObjectHideFlags: 0

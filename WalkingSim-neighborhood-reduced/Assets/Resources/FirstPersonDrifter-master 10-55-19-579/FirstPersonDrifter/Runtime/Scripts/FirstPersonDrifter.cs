@@ -80,10 +80,10 @@ public class FirstPersonDrifter : MonoBehaviour
     {
         if(SceneManager.GetActiveScene().name == "WalkSimSadHouse")
         {
-            if (UnityEditor.PlayerSettings.colorSpace == ColorSpace.Linear)
-            {
-                UnityEditor.PlayerSettings.colorSpace = ColorSpace.Gamma;
-            }
+            //if (UnityEditor.PlayerSettings.colorSpace == ColorSpace.Linear)
+            //{
+            //    UnityEditor.PlayerSettings.colorSpace = ColorSpace.Gamma;
+            //}
 
             //added myself
             if (myTransform.position.y <= 57.8 && myTransform.position.y > -60)
@@ -122,13 +122,13 @@ public class FirstPersonDrifter : MonoBehaviour
 
             }
         }
-        else
-        {
-            if (UnityEditor.PlayerSettings.colorSpace == ColorSpace.Gamma)
-            {
-                UnityEditor.PlayerSettings.colorSpace = ColorSpace.Linear;
-            }
-        }
+        //else
+        //{
+        //    if (UnityEditor.PlayerSettings.colorSpace == ColorSpace.Gamma)
+        //    {
+        //        UnityEditor.PlayerSettings.colorSpace = ColorSpace.Linear;
+        //    }
+        //}
 
 
         if (grounded)

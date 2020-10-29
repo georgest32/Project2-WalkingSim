@@ -49,6 +49,8 @@ public class Warp : MonoBehaviour
             else if (gameObject.name == "FinaleHouseEnter")
             {
                 panel.SetActive(true);
+                FindObjectOfType<MouseLook>().enabled = false;
+                FindObjectOfType<MouseLook>().enabled = false;
                 Debug.Log("finale");
             }
         }

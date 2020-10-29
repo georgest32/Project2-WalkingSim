@@ -1,5 +1,8 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp-firstpass.dll:
+    - UnityStandardAssets.Water.Water
+    - UnityStandardAssets.Water.WaterBasic
     Assembly-CSharp.dll:
     - Locknload
     - Warp
@@ -40,6 +43,9 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.PostProcessing.PostProcessVolume
     - UnityEngine.Rendering.PostProcessing.ScreenSpaceReflections
     - UnityEngine.Rendering.PostProcessing.Vignette
+    Unity.ProBuilder.dll:
+    - UnityEngine.ProBuilder.PolyShape
+    - UnityEngine.ProBuilder.ProBuilderMesh
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -108,67 +114,67 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11242}
+      Script: {instanceID: 11296}
     - Class: 114
-      Script: {instanceID: 11264}
-    - Class: 114
-      Script: {instanceID: 11286}
+      Script: {instanceID: 11322}
     - Class: 114
       Script: {instanceID: 11346}
     - Class: 114
-      Script: {instanceID: 11400}
+      Script: {instanceID: 11424}
     - Class: 114
-      Script: {instanceID: 11548}
+      Script: {instanceID: 11500}
     - Class: 114
-      Script: {instanceID: 11576}
-    - Class: 114
-      Script: {instanceID: 11614}
-    - Class: 114
-      Script: {instanceID: 11628}
-    - Class: 114
-      Script: {instanceID: 11634}
-    - Class: 114
-      Script: {instanceID: 11636}
-    - Class: 114
-      Script: {instanceID: 11642}
-    - Class: 114
-      Script: {instanceID: 11662}
-    - Class: 114
-      Script: {instanceID: 11664}
+      Script: {instanceID: 11686}
     - Class: 114
       Script: {instanceID: 11720}
     - Class: 114
-      Script: {instanceID: 11806}
+      Script: {instanceID: 11764}
     - Class: 114
-      Script: {instanceID: 11826}
+      Script: {instanceID: 11778}
     - Class: 114
-      Script: {instanceID: 11894}
+      Script: {instanceID: 11784}
     - Class: 114
-      Script: {instanceID: 11942}
+      Script: {instanceID: 11786}
     - Class: 114
-      Script: {instanceID: 12230}
+      Script: {instanceID: 11792}
     - Class: 114
-      Script: {instanceID: 12344}
+      Script: {instanceID: 11812}
     - Class: 114
-      Script: {instanceID: 12408}
+      Script: {instanceID: 11814}
     - Class: 114
-      Script: {instanceID: 12460}
+      Script: {instanceID: 11870}
     - Class: 114
-      Script: {instanceID: 12652}
+      Script: {instanceID: 11984}
     - Class: 114
-      Script: {instanceID: 12998}
+      Script: {instanceID: 12006}
     - Class: 114
-      Script: {instanceID: 13128}
+      Script: {instanceID: 12090}
     - Class: 114
-      Script: {instanceID: 13394}
+      Script: {instanceID: 12154}
     - Class: 114
-      Script: {instanceID: 13478}
+      Script: {instanceID: 12496}
     - Class: 114
-      Script: {instanceID: 13904}
+      Script: {instanceID: 12630}
     - Class: 114
-      Script: {instanceID: 13954}
+      Script: {instanceID: 12716}
     - Class: 114
-      Script: {instanceID: 14058}
+      Script: {instanceID: 12776}
+    - Class: 114
+      Script: {instanceID: 13020}
+    - Class: 114
+      Script: {instanceID: 13448}
+    - Class: 114
+      Script: {instanceID: 13620}
+    - Class: 114
+      Script: {instanceID: 13946}
+    - Class: 114
+      Script: {instanceID: 14046}
+    - Class: 114
+      Script: {instanceID: 14572}
+    - Class: 114
+      Script: {instanceID: 14638}
+    - Class: 114
+      Script: {instanceID: 14764}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -233,23 +239,21 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11346}
+      Script: {instanceID: 11424}
     - Class: 114
-      Script: {instanceID: 11806}
+      Script: {instanceID: 11984}
     - Class: 114
-      Script: {instanceID: 11894}
+      Script: {instanceID: 12090}
     - Class: 114
-      Script: {instanceID: 11942}
+      Script: {instanceID: 12154}
     - Class: 114
-      Script: {instanceID: 12344}
+      Script: {instanceID: 12630}
     - Class: 114
-      Script: {instanceID: 12408}
+      Script: {instanceID: 12716}
     - Class: 114
-      Script: {instanceID: 12460}
+      Script: {instanceID: 12776}
     - Class: 114
-      Script: {instanceID: 12998}
-    - Class: 114
-      Script: {instanceID: 39346}
+      Script: {instanceID: 13448}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -267,6 +271,83 @@ ScriptsOnlyBuild:
     - Class: 218
       Script: {instanceID: 0}
     - Class: 1953259897
+      Script: {instanceID: 0}
+    Assets/Scenes/WalkSimSadHouse.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11424}
+    - Class: 114
+      Script: {instanceID: 11746}
+    - Class: 114
+      Script: {instanceID: 11984}
+    - Class: 114
+      Script: {instanceID: 12082}
+    - Class: 114
+      Script: {instanceID: 12090}
+    - Class: 114
+      Script: {instanceID: 12154}
+    - Class: 114
+      Script: {instanceID: 12630}
+    - Class: 114
+      Script: {instanceID: 12716}
+    - Class: 114
+      Script: {instanceID: 12776}
+    - Class: 114
+      Script: {instanceID: 13224}
+    - Class: 114
+      Script: {instanceID: 13448}
+    - Class: 114
+      Script: {instanceID: 13582}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 143
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
       Script: {instanceID: 0}
     Assets/Scenes/backup1.unity:
     - Class: 1
@@ -305,6 +386,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
     - Class: 95
@@ -318,91 +401,91 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: -278}
     - Class: 114
-      Script: {instanceID: 11242}
+      Script: {instanceID: 11296}
     - Class: 114
-      Script: {instanceID: 11264}
-    - Class: 114
-      Script: {instanceID: 11286}
+      Script: {instanceID: 11322}
     - Class: 114
       Script: {instanceID: 11346}
     - Class: 114
-      Script: {instanceID: 11376}
+      Script: {instanceID: 11424}
     - Class: 114
-      Script: {instanceID: 11400}
+      Script: {instanceID: 11462}
     - Class: 114
-      Script: {instanceID: 11498}
+      Script: {instanceID: 11500}
     - Class: 114
-      Script: {instanceID: 11548}
+      Script: {instanceID: 11624}
     - Class: 114
-      Script: {instanceID: 11576}
+      Script: {instanceID: 11686}
     - Class: 114
-      Script: {instanceID: 11614}
+      Script: {instanceID: 11720}
     - Class: 114
-      Script: {instanceID: 11618}
+      Script: {instanceID: 11764}
     - Class: 114
-      Script: {instanceID: 11620}
+      Script: {instanceID: 11768}
     - Class: 114
-      Script: {instanceID: 11634}
+      Script: {instanceID: 11770}
     - Class: 114
-      Script: {instanceID: 11636}
+      Script: {instanceID: 11784}
     - Class: 114
-      Script: {instanceID: 11638}
+      Script: {instanceID: 11786}
     - Class: 114
-      Script: {instanceID: 11642}
+      Script: {instanceID: 11788}
     - Class: 114
-      Script: {instanceID: 11644}
+      Script: {instanceID: 11792}
     - Class: 114
-      Script: {instanceID: 11650}
+      Script: {instanceID: 11794}
     - Class: 114
-      Script: {instanceID: 11662}
+      Script: {instanceID: 11800}
     - Class: 114
-      Script: {instanceID: 11748}
+      Script: {instanceID: 11812}
     - Class: 114
-      Script: {instanceID: 11806}
+      Script: {instanceID: 11906}
     - Class: 114
-      Script: {instanceID: 11826}
+      Script: {instanceID: 11984}
     - Class: 114
-      Script: {instanceID: 11894}
+      Script: {instanceID: 12006}
     - Class: 114
-      Script: {instanceID: 11942}
+      Script: {instanceID: 12090}
     - Class: 114
-      Script: {instanceID: 12266}
+      Script: {instanceID: 12154}
     - Class: 114
-      Script: {instanceID: 12344}
+      Script: {instanceID: 12550}
     - Class: 114
-      Script: {instanceID: 12408}
+      Script: {instanceID: 12630}
     - Class: 114
-      Script: {instanceID: 12460}
+      Script: {instanceID: 12716}
     - Class: 114
-      Script: {instanceID: 12652}
+      Script: {instanceID: 12776}
     - Class: 114
-      Script: {instanceID: 12826}
+      Script: {instanceID: 13020}
     - Class: 114
-      Script: {instanceID: 12998}
+      Script: {instanceID: 13228}
     - Class: 114
-      Script: {instanceID: 13004}
+      Script: {instanceID: 13448}
     - Class: 114
-      Script: {instanceID: 13128}
+      Script: {instanceID: 13456}
     - Class: 114
-      Script: {instanceID: 13144}
+      Script: {instanceID: 13620}
     - Class: 114
-      Script: {instanceID: 13354}
+      Script: {instanceID: 13640}
     - Class: 114
-      Script: {instanceID: 13378}
+      Script: {instanceID: 13894}
     - Class: 114
-      Script: {instanceID: 13394}
+      Script: {instanceID: 13922}
     - Class: 114
-      Script: {instanceID: 13676}
+      Script: {instanceID: 13946}
     - Class: 114
-      Script: {instanceID: 13904}
+      Script: {instanceID: 14308}
     - Class: 114
-      Script: {instanceID: 13954}
+      Script: {instanceID: 14572}
     - Class: 114
-      Script: {instanceID: 14086}
+      Script: {instanceID: 14638}
     - Class: 114
-      Script: {instanceID: 14110}
+      Script: {instanceID: 14800}
     - Class: 114
-      Script: {instanceID: 23266}
+      Script: {instanceID: 14832}
+    - Class: 114
+      Script: {instanceID: 89898}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 121
@@ -410,6 +493,8 @@ ScriptsOnlyBuild:
     - Class: 124
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 137
       Script: {instanceID: 0}
     - Class: 143
       Script: {instanceID: 0}
@@ -496,6 +581,12 @@ ScriptsOnlyBuild:
     assemblyName: igaryhe.FirstPersonDrifter.Runtime.dll
     namespaceName: 
     className: OptionsMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 9c7c87712e298256d276eb96e02a57b1
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: PreferenceDictionary
   - hash:
       serializedVersion: 2
       Hash: 71f7f12b8d0f4fd73590db8bcb6d453c
@@ -586,6 +677,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: f6633ace6e530c0000f2ac6da4269c52
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: PolyShape
   - hash:
       serializedVersion: 2
       Hash: e37feead6115db66dd30b83371233dcb
@@ -936,6 +1033,12 @@ ScriptsOnlyBuild:
     className: SideObject
   - hash:
       serializedVersion: 2
+      Hash: 357dc9516c87a9d2caf5c0f50c455e56
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityStandardAssets.Water
+    className: WaterBase
+  - hash:
+      serializedVersion: 2
       Hash: 8de89021ff5e3ec5ffd065f728f200c9
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1014,6 +1117,12 @@ ScriptsOnlyBuild:
     className: Vignette
   - hash:
       serializedVersion: 2
+      Hash: 36f96c190e244321e128769d9c5120ac
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: ProBuilderMesh
+  - hash:
+      serializedVersion: 2
       Hash: 3c0f4f4663800592c5b8626f0ff580b3
     assemblyName: igaryhe.FirstPersonDrifter.Runtime.dll
     namespaceName: 
@@ -1066,6 +1175,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 32f6d1d5a09e5c94c633a32edd3e6836
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: BezierShape
   - hash:
       serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
@@ -1140,13 +1255,19 @@ ScriptsOnlyBuild:
     className: InputSettings
   - hash:
       serializedVersion: 2
+      Hash: 13e2a118b595be56120b691f8f3b1861
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SeaColor
+  - hash:
+      serializedVersion: 2
       Hash: 61b9d9b6f4b6a222dfea8b131b3d3227
     assemblyName: Unity.Postprocessing.Runtime.dll
     namespaceName: UnityEngine.Rendering.PostProcessing
     className: ChromaticAberration
   - hash:
       serializedVersion: 2
-      Hash: a3cb5e91305a0c7e7296ba2809de4d94
+      Hash: 8434030fc4c1121de4509ed236771819
     assemblyName: igaryhe.FirstPersonDrifter.Runtime.dll
     namespaceName: 
     className: FirstPersonDrifter
@@ -1194,16 +1315,40 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
+      Hash: e9389e944eb81a3a9df56fcdb09ce6a9
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: TriggerBehaviour
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalTrack
   - hash:
       serializedVersion: 2
+      Hash: e9389e944eb81a3a9df56fcdb09ce6a9
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: ColliderBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 14d684e5eb706041b258044f3a2d3861
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityStandardAssets.Water
+    className: PlanarReflection
+  - hash:
+      serializedVersion: 2
       Hash: bfeb96683d3796cadaab890bfdfe92be
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.Editor
     className: InputDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityStandardAssets.Water
+    className: Displace
   - hash:
       serializedVersion: 2
       Hash: d6fc8d3165070298511ec776ea575626
@@ -1272,6 +1417,12 @@ ScriptsOnlyBuild:
     className: HIDDescriptorWindow
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityStandardAssets.Water
+    className: WaterBasic
+  - hash:
+      serializedVersion: 2
       Hash: 5f1752ed2092162f016c19510c28a8b9
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -1314,10 +1465,22 @@ ScriptsOnlyBuild:
     className: Locknload
   - hash:
       serializedVersion: 2
+      Hash: d6a8e9bec3160a152b9b2710593d3caa
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: ColorPalette
+  - hash:
+      serializedVersion: 2
       Hash: 285f5d7c369d870b93f4a2cbcec118e4
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.Editor
     className: InputDeviceDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 97a580c59cad3623a01bbf5fb2d7fa93
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityStandardAssets.Water
+    className: SpecularLighting
   - hash:
       serializedVersion: 2
       Hash: 783f593b9380cf72d0f7ebfd4a0d4bcd
@@ -1330,6 +1493,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: c239250f2f7641ce897064c7bd4173b0
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityStandardAssets.Water
+    className: Water
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1380,6 +1549,12 @@ ScriptsOnlyBuild:
     className: TimelineAsset
   - hash:
       serializedVersion: 2
+      Hash: 301f4da7cc3b301c161d089f9d22efed
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: Entity
+  - hash:
+      serializedVersion: 2
       Hash: 76aef43e801605d1829c8805eeee135c
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem
@@ -1416,6 +1591,12 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityStandardAssets.Water
+    className: GerstnerDisplace
+  - hash:
+      serializedVersion: 2
       Hash: c6246959d67545acc10c1587d5d38ece
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1440,6 +1621,12 @@ ScriptsOnlyBuild:
     className: AdvancedDropdownWindow
   - hash:
       serializedVersion: 2
+      Hash: 698812e8d71fd38ac0f66f7a70a25fb5
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityStandardAssets.Water
+    className: WaterTile
+  - hash:
+      serializedVersion: 2
       Hash: a010913a40b808f189a22e1d629253b2
     assemblyName: EasyRoads3Dv3Editor.dll
     namespaceName: EasyRoads3Dv3Editor
@@ -1458,12 +1645,6 @@ ScriptsOnlyBuild:
     className: ERCrossingMainRoadEditor
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3Editor.dll
-    namespaceName: EasyRoads3Dv3Editor
-    className: EREditor
-  - hash:
-      serializedVersion: 2
       Hash: 9e03e94f9e25e2bb094a9aefd0ebce51
     assemblyName: EasyRoads3Dv3Editor.dll
     namespaceName: EasyRoads3Dv3Editor
@@ -1476,12 +1657,6 @@ ScriptsOnlyBuild:
     className: ERNewRoadTypeWindow
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3Editor.dll
-    namespaceName: EasyRoads3Dv3Editor
-    className: EROCODQOQDQOEditor
-  - hash:
-      serializedVersion: 2
       Hash: 07a14e8817e6a231730c6aa94a5e64b8
     assemblyName: EasyRoads3Dv3Editor.dll
     namespaceName: 
@@ -1492,12 +1667,6 @@ ScriptsOnlyBuild:
     assemblyName: EasyRoads3Dv3Editor.dll
     namespaceName: EasyRoads3Dv3Editor
     className: ERRoadNetworkObjectEditor
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3Editor.dll
-    namespaceName: EasyRoads3Dv3Editor
-    className: ERSceneGUI
   - hash:
       serializedVersion: 2
       Hash: f9f23b0866c1fc52d8ee73c0f436fcdb
@@ -1536,24 +1705,6 @@ ScriptsOnlyBuild:
     className: ERTextureUtility
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3Editor.dll
-    namespaceName: EasyRoads3Dv3Editor
-    className: OCCDDDDCOC
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3Editor.dll
-    namespaceName: EasyRoads3Dv3Editor
-    className: OCCDODDQOD
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3Editor.dll
-    namespaceName: EasyRoads3Dv3Editor
-    className: OCCDQQDCQD
-  - hash:
-      serializedVersion: 2
       Hash: 463b82669cfafeb8e9ab2b022ea65aaf
     assemblyName: EasyRoads3Dv3Editor.dll
     namespaceName: EasyRoads3Dv3Editor
@@ -1563,55 +1714,13 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: EasyRoads3Dv3Editor.dll
     namespaceName: EasyRoads3Dv3Editor
-    className: OCDDDCQDOD
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3Editor.dll
-    namespaceName: EasyRoads3Dv3Editor
-    className: OCOOOOOOCQ
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3Editor.dll
-    namespaceName: EasyRoads3Dv3Editor
     className: OCOQCOCQOQV3
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3Editor.dll
-    namespaceName: EasyRoads3Dv3Editor
-    className: OCOQDDQDDQ
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3Editor.dll
-    namespaceName: EasyRoads3Dv3Editor
-    className: OCQCQDOCOC
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3Editor.dll
-    namespaceName: EasyRoads3Dv3Editor
-    className: OCQODQQOCD
   - hash:
       serializedVersion: 2
       Hash: dca3fe2d92a658cad3d1122ae9a76fc8
     assemblyName: EasyRoads3Dv3Editor.dll
     namespaceName: EasyRoads3Dv3Editor
     className: ODCOQCOCCQ
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3Editor.dll
-    namespaceName: EasyRoads3Dv3Editor
-    className: ODOOOQQOCD
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3Editor.dll
-    namespaceName: EasyRoads3Dv3Editor
-    className: ODOQQDODCO
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1632,42 +1741,6 @@ ScriptsOnlyBuild:
     className: OOCDDQDDDQ
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3Editor.dll
-    namespaceName: EasyRoads3Dv3Editor
-    className: OOCDOQCQOQ
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3Editor.dll
-    namespaceName: EasyRoads3Dv3Editor
-    className: OOCQCQQQDQ
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3Editor.dll
-    namespaceName: EasyRoads3Dv3Editor
-    className: OOCQDDDOOO
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3Editor.dll
-    namespaceName: EasyRoads3Dv3Editor
-    className: OODQOQQOOQ
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3Editor.dll
-    namespaceName: EasyRoads3Dv3Editor
-    className: OODQOQQOOQ0
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3Editor.dll
-    namespaceName: EasyRoads3Dv3Editor
-    className: OOODCQOODD
-  - hash:
-      serializedVersion: 2
       Hash: 453070713148073546d2095f7cee28cb
     assemblyName: EasyRoads3Dv3Editor.dll
     namespaceName: EasyRoads3Dv3Editor
@@ -1680,28 +1753,10 @@ ScriptsOnlyBuild:
     className: OQCDDOQDDD
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3Editor.dll
-    namespaceName: EasyRoads3Dv3Editor
-    className: OQCQOCOQQO
-  - hash:
-      serializedVersion: 2
       Hash: 1c2bdbd439df0598a5dd34e54b6d8111
     assemblyName: EasyRoads3Dv3Editor.dll
     namespaceName: EasyRoads3Dv3Editor
     className: OQDCCDDCQD
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3Editor.dll
-    namespaceName: EasyRoads3Dv3Editor
-    className: OQDCOCCDDO
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3Editor.dll
-    namespaceName: EasyRoads3Dv3Editor
-    className: OQOCCOQDCD
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1746,28 +1801,10 @@ ScriptsOnlyBuild:
     className: QDDOOQOOQDDD
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3Editor.dll
-    namespaceName: EasyRoads3Dv3Editor
-    className: QDOQDSQDQQODD
-  - hash:
-      serializedVersion: 2
       Hash: b41e79fbb519702d48617d90c6d2ffdc
     assemblyName: EasyRoads3Dv3Editor.dll
     namespaceName: EasyRoads3Dv3Editor
     className: QDOQDSQQDQODD
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3Editor.dll
-    namespaceName: EasyRoads3Dv3Editor
-    className: QDOQSQDOOQDDD
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3Editor.dll
-    namespaceName: EasyRoads3Dv3Editor
-    className: QDOSQDQQOQDDD
   - hash:
       serializedVersion: 2
       Hash: d5630f96bd5a6a6eed7e1754c3fb8703
@@ -1866,6 +1903,12 @@ ScriptsOnlyBuild:
     className: SignalEmitter
   - hash:
       serializedVersion: 2
+      Hash: 8434030fc4c1121de4509ed236771819
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FirstPersonDrifterYanxi
+  - hash:
+      serializedVersion: 2
       Hash: 7072231382eb3c4871b3dd75ad0227e1
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -1898,5 +1941,7 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/backup1.unity
   - Assets/Scenes/HappyHouse.unity
+  - Assets/Scenes/WalkSimSadHouse.unity
   - Assets/Scenes/Finale.unity
-  playerPath: /Users/georgestill/Desktop/Head Spaces/Head Spaces (Windows)/WalkingSim-neighborhood.exe
+  playerPath: /Users/georgestill/Project2-WalkingSim/WalkingSim-neighborhood-reduced/Disaster
+    Walk (Windows)/WalkingSim-neighborhood.exe
